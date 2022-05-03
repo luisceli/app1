@@ -1,0 +1,99 @@
+/** es un comentario*/
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+body{
+    background-color: #f2f2f2;
+}
+
+.principal,.cabecera, .menuPrincipal, .sliderPrincipal,.main, .piePagina,.contenido,.contenido2,.sponsors{
+    background: #ccc;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+
+
+.cabecera h1{
+    background-color: #F8A72F;
+    box-shadow:#000 3px 2px 2px ;
+}
+.cabecera h1{
+    color: #F60000;
+    padding: 10px 20px;
+    text-shadow: #000 3px 2px 2px;
+}
+.menuPrincipal{
+    background-color: #C1C1C1;
+    text-align: center;
+    padding-top: 10px;
+}
+.menuPrincipal a{
+    text-decoration: none;
+    padding: 8px 10px;
+    color: #F60000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.menuPrincipal a:hover{
+    background-color: #EDD502;
+    color: #141414;
+
+}
+.sliderPrincipal img{
+    width: 100%;
+
+}
+
+
+
+/* menu plato*/
+
+.menu{
+    text-align: center;
+}
+.h2Home{
+    text-align: center;
+    padding: 2em 0;
+
+}
+.menuPlato{
+    width: 32%;
+    background-color: #EDEDEE;
+    border: 1px solid #EDEDEE;
+    height: 500px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.menuPlato img{
+    width: 80%;
+    padding: 10px 2px;
+}
+.menuPlato h3{
+    color: #000;
+}
+.menuPlato  button{
+    border-radius: 10px;
+    border: 1px solid;
+    text-align: right;
+}
+
+.piePagina{
+    background-color: #1D1D1D;
+    
+}
+.piePagina H6{
+    text-align: center;
+    padding: 2em 0;
+}

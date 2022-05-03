@@ -1,69 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi primera app</title>
-</head>
-<body>
-    <header>
-        <section>
-            <img  stsrc="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logos.svg/1200px-Logos.svg.png" alt="logo">
-        </section>
-        <section>
-            <a href="">Registro </a>
-            <a href="">|Login</a>     
-        </section> 
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="cabecera">
+      <section>
+        <img
+          stsrc="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Logos.svg/1200px-Logos.svg.png"
+          alt="logo"
+        />
+      </section>
+      <section>
+        <a href="">Registro </a>
+        <a href="">|Login</a>
+      </section>
+      <h1>Mamá Lola</h1>
     </header>
-    <nav>
-         <a href="">Inicio</a>
-         <a href="">|Servicios</a>
-         <a href="">|Portafolio</a>
-         <a href="">|Clientes</a>
-         <a href="">|Contactos</a>
+
+    <nav class="menuPrincipal">
+      <a href="">Inicio</a>
+      <a href="">|Productos</a>
+      <a href="">|Reservas</a>
+      <a href="">|Clientes</a>
+      <a href="">|Contactos</a>
+      <a href="">|Registro</a>
     </nav>
 
-    <section>
-        <p>Galeria de imagenes</p>
+    <section class="sliderPrincipal">
+      <img src="img/Frame 1.jpg" alt="Slider" title="SliderPrincipal" />
     </section>
-    <main>
-        <section>
-            <h2>Noticia1</h2>
-            <h3>Nombre de la noticia1</h3>
-            <section>
-                <img src="" alt="foto noticia">
-            </section>
 
-            <section>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, error. Ea beatae ex consectetur enim nostrum voluptatum ipsa quia mollitia corporis cupiditate fugiat aliquid laboriosam, vel modi neque maxime sed!</p>
-            </section>
-        </section>
+    <main class="principal">
+      <h2 class="h2Home">Noticias</h2>
+      <section class="menu">
+        <article class="menuPlato">
+            <img src="img/plato1.jpg" alt="">
+            <h3>Frirada de cerdo</h3>
+            <p>Información del plato de la fritada</p>
+                <button > ver Detalles</button>
+            
+            </article>
+        <article class="menuPlato"></article>
+        <article class="menuPlato"></article>
+      </section>
 
-        <section>
-            <h2>Noticia 2</h2>
-            <h3>Nombre de la noticia2</h3>
-
-            <section>
-                <img src="" alt="foto de la noticia2">
-            </section>
-
-            <section>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus modi aut ipsa autem cumque, pariatur sunt odio quo ut, error quidem possimus, aliquid debitis consectetur fuga blanditiis. Aliquid, excepturi at?</p>
-            </section>
-
-        </section>
+      <h2 class="h2Home">Noticias</h2>
+      <section class="menu">
+        <article class="menuPlato">
+            <img src="" alt="">
+        </article>
+        <article class="menuPlato"></article>
+        <article class="menuPlato"></article>
+      </section>
     </main>
-    
-    <section>
-        <aside>
-            <h5>Sponsors</h5>
-            <div>sponsor1</div>
-            <div>sponsor2</div>
-            <div>sponsor3</div>
-            <div>sponsor4</div>
-        </aside>
+
+    <section class="sponsors">
+      <aside>
+        <h5>Sponsors</h5>
+        <div>sponsor1</div>
+        <div>sponsor2</div>
+        <div>sponsor3</div>
+        <div>sponsor4</div>
+      </aside>
     </section>
-    <footer><h6>Pie de página</h6></footer>
-</body>
+    <footer class="piePagina"><h6>Pie de página</h6></footer>
+  </body>
 </html>
